@@ -1,10 +1,10 @@
 <table width="100%">
   <tr>
     <td align="left" width="120">
-      <img src="apps/web/public/logo.png" alt="OpenCut Logo" width="100" />
+      <img src="apps/web/public/logos/opencut/1k/logo-white-black.png" alt="OpenCut Logo" width="100" />
     </td>
     <td align="right">
-      <h1>OpenCut <span style="font-size: 0.7em; font-weight: normal;">(prev AppCut)</span></h1>
+      <h1>OpenCut</span></h1>
       <h3 style="margin-top: -10px;">A free, open-source video editor for web, desktop, and mobile.</h3>
     </td>
   </tr>
@@ -13,7 +13,7 @@
 ## Why?
 
 - **Privacy**: Your videos stay on your device
-- **Free features**: Every basic feature of CapCut is paywalled now
+- **Free features**: Most basic CapCut features are now paywalled 
 - **Simple**: People want editors that are easy to use - CapCut proved that
 
 ## Features
@@ -104,7 +104,7 @@ Before you begin, ensure you have the following installed on your system:
 
    ```bash
    # Database (matches docker-compose.yaml)
-   DATABASE_URL="postgresql://opencut:opencutthegoat@localhost:5432/opencut"
+   DATABASE_URL="postgresql://opencut:opencut@localhost:5432/opencut"
 
    # Generate a secure secret for Better Auth
    BETTER_AUTH_SECRET="your-generated-secret-here"
@@ -160,11 +160,17 @@ See our [Contributing Guide](.github/CONTRIBUTING.md) for detailed setup instruc
 
 ## Sponsors
 
-Thanks to [Vercel](https://vercel.com?utm_source=github-opencut&utm_campaign=oss) for their support of open-source software.
+Thanks to [Vercel](https://vercel.com?utm_source=github-opencut&utm_campaign=oss) and [fal.ai](https://fal.ai?utm_source=github-opencut&utm_campaign=oss) for their support of open-source software.
 
 <a href="https://vercel.com/oss">
   <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
 </a>
+
+<a href="https://fal.ai">
+  <img alt="Powered by fal.ai" src="https://img.shields.io/badge/Powered%20by-fal.ai-000000?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCAxMEwxMy4wOSAxNS43NEwxMiAyMkwxMC45MSAxNS43NEw0IDEwTDEwLjkxIDguMjZMMTIgMloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" />
+</a>
+
+---
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FOpenCut-app%2FOpenCut&project-name=opencut&repository-name=opencut)
 
